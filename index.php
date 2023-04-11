@@ -14,7 +14,7 @@ session_start();
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link href="img/logo/attnlg.jpg" rel="icon">
+  <link href="img/logo/IC.png" rel="icon">
   <title>AMS - Login</title>
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -32,9 +32,9 @@ session_start();
             <div class="row">
               <div class="col-lg-12">
                 <div class="login-form">
-                <h5 align="center">STUDENT ATTENDANCE SYSTEM</h5>
+                <h5 align="center">IC ATTENDANCE SYSTEM</h5>
                   <div class="text-center">
-                    <img src="img/logo/attnlg.jpg" style="width:100px;height:100px">
+                    <img src="img/logo/IC.png" style="width:100px;height:100px">
                     <br><br>
                     <h1 class="h4 text-gray-900 mb-4">Admin Login Panel</h1>
                   </div>
@@ -43,7 +43,7 @@ session_start();
                   <select required name="userType" class="form-control mb-3">
                           <option value="">--Select User Roles--</option>
                           <option value="Administrator">Administrator</option>
-                          <option value="ClassTeacher">ClassTeacher</option>
+                          <option value="ClassTeacher">Manager</option>
                         </select>
                     </div>
                     <div class="form-group">
